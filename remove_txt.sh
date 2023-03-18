@@ -1,11 +1,11 @@
 #!/bin/bash
 
-# Remove all txt files in T01D01-0-develop folder
+# Remove all .txt files in the folder
 
-rm /home/boris/Documents/School-21/T01D01-0-develop/*.txt
+rm /home/boris/Documents/bash-scripts/folder/*.txt
 if [ $? -eq 0 ]; then
-	echo 'removed successful'
+	echo 'Removed successfully'
 else
-	echo 'There are no files with txt extensions'
+	echo 'There are no files with .txt extensions'
 	exit 1
 fi
